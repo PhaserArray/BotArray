@@ -4,9 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-"discord.py" = "*"
+hikari = "*"
+hikari-lightbulb = "*"
 
 [dev-packages]
+flake8 = "*"
+flake8-annotations = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.10"
